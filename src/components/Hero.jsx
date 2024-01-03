@@ -25,22 +25,22 @@ const Hero = () => {
                 <div className='grid grid-cols-1 md:grid-cols-12'>
                     <div className='col-span-6'>
                         <div className='md:mt-2 gap-16'>
-                            <h1 className='text-[#FF9DA6] text-[64px] leading-[78px] shadow-md font-semibold text-shadow-md text-center md:text-left'>$BTSEI</h1>
-                            <h2 className='text-[#FF9DA6] text-[24px] md:text-[40px] md:leading-[48px] font-medium  tracking-wide leading-[32px] md:tracking-tighter text-center md:text-left my-1 text-balance'>
+                            <h1 className='text-[#FF9DA6] font-[ClashGrotest-Semibold] text-[64px] leading-[78px] shadow-md font-semibold text-shadow-md text-center md:text-left'>$BTSEI</h1>
+                            <h2 className='text-[#FF9DA6] max-w-[400px] font-[ClashGrotest-Medium] text-[24px] md:text-[40px] md:leading-[48px] font-medium  tracking-wide leading-[32px] md:tracking-tighter text-center md:text-left my-1 text-balance'>
                                 No Team, No Roadmap,
                                 Just Satoshi’s Legacy
                             </h2>
 
                             <div className='max-w-[400px] md:block'>
-                                <h3 className='text-[#FFFFFF] text-sm font-normal leading-5 tracking-tight md:tracking-wider  text-center md:text-left mt-2'>The meme coin that SEI deserves.
+                                <h3 className='text-[#FFFFFF] text-sm  font-[HelveticalNowDisplay] leading-5 tracking-tight md:tracking-wider  text-center md:text-left mt-2'>The meme coin that SEI deserves.
                                 </h3>
-                                <h3 className='text-[#FFFFFF] mx-auto md:max-w-none mt-1 max-w-[350px] text-sm font-normal leading-5 tracking-tight md:tracking-wider text-center md:text-left'>
+                                <h3 className='text-[#FFFFFF] font-[HelveticalNowDisplay] mx-auto md:max-w-none mt-1 max-w-[350px] text-sm font-normal leading-5 tracking-tight md:tracking-wider text-center md:text-left'>
                                     Total supply: 21,000,000NO PRSEALE, NO TEAM TOKENS, NO BS.</h3>
                             </div>
 
 
                         </div>
-                        <div className=' md:mt-20  my-10'>
+                        <div className=' md:mt-15  my-10'>
                             <div className='w-full gap-4'>
                                 <Link target='_blank' href="https://twitter.com/Sanjaysk2108" className="box text-[#FF9EA8] w-full md:w-[270px] ">
                                     x
@@ -64,7 +64,7 @@ const Hero = () => {
 
                         </div>
                     </div>
-                    <div className='hidden md:flex col-span-6 flex items-end justify-end'>
+                    <div className='hidden md:flex col-span-6  items-end justify-end'>
                         <Image src="/Btc.png" width={850} height={650} alt="btcimage" />
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const Hero = () => {
                         </div>
 
                     </div>
-                    <div className='flex items-end '>
+                    <div className='flex justify-center my-10 md:my-0'>
                         <div className='flex gap-5 items-end'>
                             <Link href="/" className='bg-black border border-solid border-[#FF9DA6] border-opacity-40 rounded-full p-2'>
                                 <FaFacebookF className='text-white' size={20} />
@@ -105,6 +105,12 @@ const Hero = () => {
                         </div>
                     </div>
 
+
+
+                </div>
+
+                <div className='md:hidden col-span-6  items-end justify-end'>
+                    <Image src="/Btc.png" width={850} height={650} alt="btcimage" />
                 </div>
 
             </div>

@@ -2,6 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'ClashGrotest-Medium';
+  src:url('../fonts/ClashGrotesk-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotest-Semibold';
+  src:url('../fonts/ClashGrotesk-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticalNowDisplay';
+  src:url('../fonts/HelveticaNowDisplay-Regular.ttf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+body {
+  font-family: 'SharpGrotesk', sans-serif;
+}
+
 .homebg{
   background-image: url(/public/Grain.png);
   background-position: center;
