@@ -42,19 +42,19 @@ const Hero = () => {
                         </div>
                         <div className=' md:mt-15  my-10'>
                             <div className='w-full gap-4'>
-                                <Link target='_blank' href="https://twitter.com/Sanjaysk2108" className="box text-[#FF9EA8] w-full md:w-[270px] ">
+                                <Link target='_blank' href="https://x.com/btsei_token" className="box text-[#FF9EA8] w-full md:w-[270px] ">
                                     x
                                 </Link>
-                                <Link href="https://coinhall.org/?tab=tokens&watchlist=false&timeframe=24h&sort=mcap&dir=desc" target="_blank" className="box text-[#FF9EA8] w-full md:w-[270px]">
+                                <Link href="https://coinhall.org/sei/sei1slanyyjzw06j0dr49tzkfnzjmx6wckhcpm75dx7azh50y0m2t5sq37vuzg" target="_blank" className="box text-[#FF9EA8] w-full md:w-[270px]">
                                     COINHALL
                                 </Link>
 
                             </div>
                             <div>
-                                <Link href="https://web.telegram.org/a/" target="_blank" className="box text-[#FF9EA8] md:w-[270px] w-full">
+                                <Link href="https://t.me/BTSEIToken" target="_blank" className="box text-[#FF9EA8] md:w-[270px] w-full">
                                     TELEGRAM
                                 </Link>
-                                <Link href="https://app.astroport.fi/swap" target="_blank" className="box text-[#FF9EA8] md:w-[270px] w-full">
+                                <Link href="https://sei.astroport.fi/swap?to=usei&from=factory/sei1qyfgukz2q333fdx3sr07560set7r0v0qe2326a/BTSEI" target="_blank" className="box text-[#FF9EA8] md:w-[270px] w-full">
                                     ASTROPORT SWAP
                                 </Link>
 
@@ -90,16 +90,11 @@ const Hero = () => {
                     </div>
                     <div className='flex justify-center my-10 md:my-0 z-20'>
                         <div className='flex gap-5 items-end'>
-                            <Link href="/" className='bg-black border border-solid border-[#FF9DA6] border-opacity-40 rounded-full p-2'>
-                                <FaFacebookF className='text-white' size={20} />
-                            </Link>
-                            <Link href="/" className='bg-black border border-solid border-[#FF9DA6] border-opacity-40 rounded-full p-2'>
-                                <FaDiscord className='text-white' size={20} />
-                            </Link>
+
                             <Link href="/" className='bg-black border border-solid border-[#FF9DA6] border-opacity-40 rounded-full p-2'>
                                 <BsTwitterX className='text-white' size={18} />
                             </Link>
-                            <Link href="/" className='bg-black border border-solid border-[#FF9DA6] border-opacity-40 rounded-full p-2'>
+                            <Link href="https://t.me/BTSEIToken" className='bg-black border border-solid border-[#FF9DA6] border-opacity-40 rounded-full p-2'>
                                 <FaTelegramPlane className='text-white' size={20} />
                             </Link>
                         </div>
