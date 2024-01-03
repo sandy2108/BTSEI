@@ -20,7 +20,7 @@ const Hero = () => {
 
 
     return (
-        <div className='w-full'>
+        <div className='relative w-full'>
             <div className='max-w-[1480px] mx-auto p-4'>
                 <div className='grid grid-cols-1 md:grid-cols-12'>
                     <div className='col-span-6'>
@@ -88,7 +88,7 @@ const Hero = () => {
                         </div>
 
                     </div>
-                    <div className='flex justify-center my-10 md:my-0'>
+                    <div className='flex justify-center my-10 md:my-0 z-20'>
                         <div className='flex gap-5 items-end'>
                             <Link href="/" className='bg-black border border-solid border-[#FF9DA6] border-opacity-40 rounded-full p-2'>
                                 <FaFacebookF className='text-white' size={20} />
@@ -109,11 +109,31 @@ const Hero = () => {
 
                 </div>
 
-                <div className='md:hidden col-span-6  items-end justify-end'>
-                    <Image src="/Btc.png" width={850} height={650} alt="btcimage" />
-                </div>
+
+
 
             </div>
+
+            <div className='md:hidden col-span-6 items-end justify-end relative '>
+                <Image src="/Btc.png" width={1000} height={800} alt="btcimage" />
+
+                <div className='absolute bottom-0 right-0'>
+                    <Image src="/Grid.png" width={800} height={600} />
+                </div>
+                <div className='absolute bottom-0 right-0'>
+                    <Image src="/bottomright.png" width={800} height={600} />
+                </div>
+            </div>
+            <div className='fixed top-0 left-0 opacity-12'>
+                <Image src="/topleft.png" width={645} height={692} />
+            </div>
+            <div className='hidden md:flex fixed bottom-0 right-0'>
+                <Image src="/bottomright.png" width={500} height={500} />
+            </div>
+            <div className='hidden md:flex fixed bottom-0 right-0 h-full w-auto'>
+                <Image src="/Grid.png" width={1000} height={1000} />
+            </div>
+
         </div >
     )
 }

@@ -27,7 +27,11 @@ export default function Home() {
         <meta name="twitter:description" content={metadata.description} />
         <meta name="twitter:image" content={metadata.imageUrl} /> {/* Add Twitter image tag */}
       </Head>
+
       <Navbar />
+
+
+
       <Hero />
       <ToastContainer />
     </main>
