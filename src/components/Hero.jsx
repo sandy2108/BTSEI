@@ -124,9 +124,7 @@ const Hero = () => {
                     <Image src="/bottomright.png" width={800} height={600} />
                 </div>
             </div>
-            <div className='fixed top-0 left-0 opacity-12'>
-                <Image src="/topleft.png" width={645} height={692} />
-            </div>
+
             <div className='hidden md:flex fixed bottom-0 right-0'>
                 <Image src="/bottomright.png" width={500} height={500} />
             </div>

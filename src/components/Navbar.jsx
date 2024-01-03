@@ -19,6 +19,9 @@ const Navbar = () => {
                 </div>
 
             </div>
+            <div className='absolute top-0 left-0 opacity-12'>
+                <Image src="/topleft.png" width={645} height={692} />
+            </div>
 
         </div>
     )
