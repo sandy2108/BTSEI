@@ -7,9 +7,15 @@ export const metadata = {
   openGraph: {
     title: '$BTSEI',
     description: 'No Team, No Roadmap, Just Satoshis Legacy',
-    image: 'https://firebasestorage.googleapis.com/v0/b/gpuxdrops.appspot.com/o/banner.png?alt=media&token=dfb3c5d4-3817-45aa-a026-d7eaf14e6b23',
-    url: 'https://firebasestorage.googleapis.com/v0/b/gpuxdrops.appspot.com/o/banner.png?alt=media&token=dfb3c5d4-3817-45aa-a026-d7eaf14e6b23',
+    image: 'https://firebasestorage.googleapis.com/v0/b/wizard-4fa3a.appspot.com/o/banner.png?alt=media&token=917e087f-4600-4fa0-8d6e-327072556156',
     card: 'summary_large_image',
+    twitter: {
+      card: 'summary_large_image',
+      site: '@btsei_token', // Replace with your Twitter handle
+      title: '$BTSEI',
+      description: 'No Team, No Roadmap, Just Satoshis Legacy',
+      image: 'https://firebasestorage.googleapis.com/v0/b/wizard-4fa3a.appspot.com/o/banner.png?alt=media&token=917e087f-4600-4fa0-8d6e-327072556156',
+    },
   }
 };
 
