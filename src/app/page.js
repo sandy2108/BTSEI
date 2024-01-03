@@ -14,7 +14,7 @@ export default function Home() {
           <meta name="description" content="No Team, No Roadmap, Just Satoshis Legacy" />
           <meta property="og:title" content="$BTSEI" />
           <meta property="og:description" content="No Team, No Roadmap, Just Satoshis Legacy" />
-          <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/wizard-4fa3a.appspot.com/o/banner.png?alt=media&token=917e087f-4600-4fa0-8d6e-327072556156" />
+          <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/wizard-4fa3a.appspot.com/o/Logo.png?alt=media&token=724bdd4b-91af-45f8-abc9-4416f65c97e7" />
           <meta name="twitter:card" content="summary_large_image" />
 
         </Head>
