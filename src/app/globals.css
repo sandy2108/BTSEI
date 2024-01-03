@@ -24,12 +24,14 @@
   font-style: normal;
 }
 
-
-
-
 body {
   font-family: 'SharpGrotesk', sans-serif;
 }
+
+.gradient-1 {
+  background-image: linear-gradient(145.45% 142.34% at 42.64% 26.95%, #FDA6A6 0%, rgba(253, 166, 236, 0) 100%);
+}
+
 
 .homebg{
   background-image: url(/public/Grain.png);
